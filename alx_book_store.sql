@@ -1,3 +1,6 @@
+-- CREATE A DATABASE
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+
 -- create a Books TABLE
 CREATE TABLE Books (
     book_id INT AUTO_INCREMENT PRIMARY KEY,
