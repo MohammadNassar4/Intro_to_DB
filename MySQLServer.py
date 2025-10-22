@@ -9,7 +9,7 @@ try:
     database = 'MySQL'
     )
     print("Successfuly connected to my database")
-except Error as e:
+except mysql.connector.Error as e:
     print(f"Error: {e}")
 
 cursor = mydb.cursor()
